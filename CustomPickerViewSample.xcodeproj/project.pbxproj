@@ -13,6 +13,8 @@
 		D3E84BE326AFFEDF00D7BFED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3E84BE126AFFEDF00D7BFED /* Main.storyboard */; };
 		D3E84BE526AFFEE100D7BFED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3E84BE426AFFEE100D7BFED /* Assets.xcassets */; };
 		D3E84BE826AFFEE100D7BFED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3E84BE626AFFEE100D7BFED /* LaunchScreen.storyboard */; };
+		D3E84BF226B0153000D7BFED /* CustomPickerContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E84BF126B0153000D7BFED /* CustomPickerContent.swift */; };
+		D3E84BF426B0153F00D7BFED /* CustomPickerContent.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E84BF326B0153F00D7BFED /* CustomPickerContent.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D3E84BE426AFFEE100D7BFED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3E84BE726AFFEE100D7BFED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3E84BE926AFFEE100D7BFED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3E84BF126B0153000D7BFED /* CustomPickerContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerContent.swift; sourceTree = "<group>"; };
+		D3E84BF326B0153F00D7BFED /* CustomPickerContent.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomPickerContent.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				D3E84BE426AFFEE100D7BFED /* Assets.xcassets */,
 				D3E84BE626AFFEE100D7BFED /* LaunchScreen.storyboard */,
 				D3E84BE926AFFEE100D7BFED /* Info.plist */,
+				D3E84BF126B0153000D7BFED /* CustomPickerContent.swift */,
+				D3E84BF326B0153F00D7BFED /* CustomPickerContent.xib */,
 			);
 			path = CustomPickerViewSample;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3E84BF426B0153F00D7BFED /* CustomPickerContent.xib in Resources */,
 				D3E84BE826AFFEE100D7BFED /* LaunchScreen.storyboard in Resources */,
 				D3E84BE526AFFEE100D7BFED /* Assets.xcassets in Resources */,
 				D3E84BE326AFFEDF00D7BFED /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3E84BF226B0153000D7BFED /* CustomPickerContent.swift in Sources */,
 				D3E84BE026AFFEDF00D7BFED /* ViewController.swift in Sources */,
 				D3E84BDC26AFFEDF00D7BFED /* AppDelegate.swift in Sources */,
 				D3E84BDE26AFFEDF00D7BFED /* SceneDelegate.swift in Sources */,

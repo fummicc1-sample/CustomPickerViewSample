@@ -65,5 +65,22 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         return nil
     }
 
+    func pickerView(_ pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusing view: UIView?) -> UIView {
+        
+        // Xibファイルを読み込む
+        let customView = UINib(nibName: "CustomPickerContent", bundle: nil).instantiate(withOwner: nil, options: nil).first as! CustomPickerContent
+        
+        // 高さを40に固定
+        customView.frame.size.height = 40
+        
+        // PickerViewに応じて表示するデータを設定する
+        if pickerView == foodPickerView {
+            customView.label.text = foodArray[row]
+        } else if pickerView == drinkPickerView {
+            customView.label.text = drinkArray[row]
+        }
+        
+        return customView
+    }
 }
 
